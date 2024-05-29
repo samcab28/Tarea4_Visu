@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Partition Vue</title>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body>
+    <!-- Create a div where the graphs will take place -->
+    <div id="my_dataviz"></div>
+
+    <script>
+        // set the dimensions and margins of the graph
+        var margin = {top: 50, right: 10, bottom: 10, left: 10},
+            width = 4000 - margin.left - margin.right,
+            height = 1200 - margin.top - margin.bottom;
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(0," + margin.top + ")"); // Move the whole chart down by the top margin
+
+        // Add a title
+        svg.append("text")
+            .attr("x", width / 2)
+            .attr("y", -20) // Adjust the position of the title
+            .attr("text-anchor", "middle")
+            .attr("font-size", "24px")
+            .attr("font-weight", "bold")
+            .text("Modulos de Vue con layout de partición");
+
+        // read json data
+        // Read the data
+        d3.json("../modulosVueOrdenadoJson.json", function(data) {
+
+            data.sort(function(a, b) {
+                return a.package.localeCompare(b.package) || a.function.localeCompare(b.function) || a.name.localeCompare(b.name);
+            });
+
+            // Nest the data by PROVINCIA and CANTON
+            var nestedData = d3.nest()
+                .key(function(d) { return d.package; })
+                .key(function(d) { return d.function; })
+                .entries(data);
+
+            // Define a color scale for provinces
+            var provinceColorScale = d3.scaleOrdinal(d3.schemeCategory10)
+                .domain(nestedData.map(function(d) { return d.key; }));
+
+            var partition = d3.partition()
+                .size([width, height])
+                .padding(1)
+                .round(true);
+
+            var root = d3.hierarchy({ values: nestedData }, function(d) { return d.values; })
+                .sum(function(d) { return 1; }) // Use a constant value to ignore population
+
+            partition(root);
+
+            var nodes = root.descendants();
+
+            // Append a group for each node
+            var nodeGroups = svg.selectAll("g")
+                .data(nodes)
+                .enter().append("g")
+                .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
+
+            // Append rectangles for each node
+            nodeGroups.append("rect")
+                .attr("x", 0)
+                .attr("y", 0)
+                .attr("width", function(d) { return d.x1 - d.x0; })
+                .attr("height", function(d) { return d.y1 - d.y0; })
+                .style("stroke", "black")
+                .style("fill", function(d) { return provinceColorScale(d.data.key); });
+
+            // Append text for node provincia name
+            nodeGroups.filter(function(d) { return d.depth === 1; }) // Filter to show text only for first level
+                .append("text")
+                .attr("x", 5)
+                .attr("y", 15)
+                .attr("fill", "black")
+                .attr("transform", "rotate(-90)") // Rotate text vertically
+                .text(function(d) { return d.data.key; });    
+
+            // Append text for node canton name
+            nodeGroups.filter(function(d) { return d.depth === 2; }) // Filter to show text only for first level
+                .append("text")
+                .attr("x", 5)
+                .attr("y", 15)
+                .attr("fill", "black")
+                .attr("transform", "rotate(-90)") // Rotate text vertically
+                .text(function(d) { return d.data.key; });
+
+            // Add a link to go back
+            d3.select("body").append("p").html("<a href='../../../index.html'>Regresar a la página principal</a>");
+
+        });
+    </script>
+</body>
+</html>

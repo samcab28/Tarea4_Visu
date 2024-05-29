@@ -1,0 +1,3803 @@
+[
+    {
+      "pathname": "VUE.@babel.parser.CHANGELOG.md",
+      "package": "@babel",
+      "function": "parser",
+      "name": "CHANGELOG",
+      "size": 38238
+    },
+    {
+      "pathname": "VUE.@babel.parser.LICENSE",
+      "package": "@babel",
+      "function": "parser",
+      "name": "LICENSE",
+      "size": 1086
+    },
+    {
+      "pathname": "VUE.@babel.parser.README.md",
+      "package": "@babel",
+      "function": "parser",
+      "name": "README",
+      "size": 427
+    },
+    {
+      "pathname": "VUE.@babel.parser.bin",
+      "package": "@babel",
+      "function": "parser",
+      "name": "bin",
+      "size": 430
+    },
+    {
+      "pathname": "VUE.@babel.parser.bin.babel-parser.js",
+      "package": "@babel",
+      "function": "parser",
+      "name": "bin",
+      "size": 328
+    },
+    {
+      "pathname": "VUE.@babel.parser.lib",
+      "package": "@babel",
+      "function": "parser",
+      "name": "lib",
+      "size": 1840911
+    },
+    {
+      "pathname": "VUE.@babel.parser.lib.index.js",
+      "package": "@babel",
+      "function": "parser",
+      "name": "lib",
+      "size": 469611
+    },
+    {
+      "pathname": "VUE.@babel.parser.lib.index.js.map",
+      "package": "@babel",
+      "function": "parser",
+      "name": "lib",
+      "size": 1371164
+    },
+    {
+      "pathname": "VUE.@babel.parser.package.json",
+      "package": "@babel",
+      "function": "parser",
+      "name": "package",
+      "size": 1096
+    },
+    {
+      "pathname": "VUE.@babel.parser.typings",
+      "package": "@babel",
+      "function": "parser",
+      "name": "typings",
+      "size": 6202
+    },
+    {
+      "pathname": "VUE.@babel.parser.typings.babel-parser.d.ts",
+      "package": "@babel",
+      "function": "parser",
+      "name": "typings",
+      "size": 6100
+    },
+    {
+      "pathname": "VUE.@vitejs.plugin-vue.LICENSE",
+      "package": "@vitejs",
+      "function": "plugin-vue",
+      "name": "LICENSE",
+      "size": 1098
+    },
+    {
+      "pathname": "VUE.@vitejs.plugin-vue.README.md",
+      "package": "@vitejs",
+      "function": "plugin-vue",
+      "name": "README",
+      "size": 3916
+    },
+    {
+      "pathname": "VUE.@vitejs.plugin-vue.dist",
+      "package": "@vitejs",
+      "function": "plugin-vue",
+      "name": "dist",
+      "size": 171811
+    },
+    {
+      "pathname": "VUE.@vitejs.plugin-vue.dist.index.d.ts",
+      "package": "@vitejs",
+      "function": "plugin-vue",
+      "name": "dist",
+      "size": 2359
+    },
+    {
+      "pathname": "VUE.@vitejs.plugin-vue.dist.index.js",
+      "package": "@vitejs",
+      "function": "plugin-vue",
+      "name": "dist",
+      "size": 169316
+    },
+    {
+      "pathname": "VUE.@vitejs.plugin-vue.package.json",
+      "package": "@vitejs",
+      "function": "plugin-vue",
+      "name": "package",
+      "size": 1690
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.LICENSE",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.README.md",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "README",
+      "size": 21
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.dist",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "dist",
+      "size": 690737
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.dist.compiler-core.cjs.js",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "dist",
+      "size": 229320
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.dist.compiler-core.cjs.prod.js",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "dist",
+      "size": 222231
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.dist.compiler-core.d.ts",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "dist",
+      "size": 43752
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.dist.compiler-core.esm-bundler.js",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "dist",
+      "size": 195230
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.index.js",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "index",
+      "size": 191
+    },
+    {
+      "pathname": "VUE.@vue.compiler-core.package.json",
+      "package": "@vue",
+      "function": "compiler-core",
+      "name": "package",
+      "size": 950
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.LICENSE",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.README.md",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "README",
+      "size": 19
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 733324
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.cjs.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 76849
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.cjs.prod.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 74981
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.d.ts",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 2147
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.esm-browser.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 216060
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.esm-browser.prod.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 56402
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.esm-bundler.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 19313
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.global.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 231014
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.dist.compiler-dom.global.prod.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "dist",
+      "size": 56218
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.index.js",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "index",
+      "size": 189
+    },
+    {
+      "pathname": "VUE.@vue.compiler-dom.package.json",
+      "package": "@vue",
+      "function": "compiler-dom",
+      "name": "package",
+      "size": 978
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.LICENSE",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.README.md",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "README",
+      "size": 4434
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.dist",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "dist",
+      "size": 2037261
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.dist.compiler-sfc.cjs.js",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "dist",
+      "size": 504725
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.dist.compiler-sfc.d.ts",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "dist",
+      "size": 10104
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.dist.compiler-sfc.esm-browser.js",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "dist",
+      "size": 1522262
+    },
+    {
+      "pathname": "VUE.@vue.compiler-sfc.package.json",
+      "package": "@vue",
+      "function": "compiler-sfc",
+      "name": "package",
+      "size": 1492
+    },
+    {
+      "pathname": "VUE.@vue.compiler-ssr.LICENSE",
+      "package": "@vue",
+      "function": "compiler-ssr",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.compiler-ssr.README.md",
+      "package": "@vue",
+      "function": "compiler-ssr",
+      "name": "README",
+      "size": 19
+    },
+    {
+      "pathname": "VUE.@vue.compiler-ssr.dist",
+      "package": "@vue",
+      "function": "compiler-ssr",
+      "name": "dist",
+      "size": 52315
+    },
+    {
+      "pathname": "VUE.@vue.compiler-ssr.dist.compiler-ssr.cjs.js",
+      "package": "@vue",
+      "function": "compiler-ssr",
+      "name": "dist",
+      "size": 51963
+    },
+    {
+      "pathname": "VUE.@vue.compiler-ssr.dist.compiler-ssr.d.ts",
+      "package": "@vue",
+      "function": "compiler-ssr",
+      "name": "dist",
+      "size": 216
+    },
+    {
+      "pathname": "VUE.@vue.compiler-ssr.package.json",
+      "package": "@vue",
+      "function": "compiler-ssr",
+      "name": "package",
+      "size": 729
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.LICENSE",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.README.md",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "README",
+      "size": 1049
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 245230
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.cjs.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 41403
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.cjs.prod.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 38466
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.d.ts",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 11757
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.esm-browser.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 42343
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.esm-browser.prod.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 11647
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.esm-bundler.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 41895
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.global.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 45767
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.dist.reactivity.global.prod.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "dist",
+      "size": 11612
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.index.js",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "index",
+      "size": 185
+    },
+    {
+      "pathname": "VUE.@vue.reactivity.package.json",
+      "package": "@vue",
+      "function": "reactivity",
+      "name": "package",
+      "size": 905
+    },
+    {
+      "pathname": "VUE.@vue.reactivity-transform.README.md",
+      "package": "@vue",
+      "function": "reactivity-transform",
+      "name": "README",
+      "size": 3014
+    },
+    {
+      "pathname": "VUE.@vue.reactivity-transform.dist",
+      "package": "@vue",
+      "function": "reactivity-transform",
+      "name": "dist",
+      "size": 22970
+    },
+    {
+      "pathname": "VUE.@vue.reactivity-transform.dist.reactivity-transform.cjs.js",
+      "package": "@vue",
+      "function": "reactivity-transform",
+      "name": "dist",
+      "size": 21827
+    },
+    {
+      "pathname": "VUE.@vue.reactivity-transform.dist.reactivity-transform.d.ts",
+      "package": "@vue",
+      "function": "reactivity-transform",
+      "name": "dist",
+      "size": 1007
+    },
+    {
+      "pathname": "VUE.@vue.reactivity-transform.package.json",
+      "package": "@vue",
+      "function": "reactivity-transform",
+      "name": "package",
+      "size": 959
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.LICENSE",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.README.md",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "README",
+      "size": 790
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.dist",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "dist",
+      "size": 949220
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.dist.runtime-core.cjs.js",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "dist",
+      "size": 306756
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.dist.runtime-core.cjs.prod.js",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "dist",
+      "size": 246061
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.dist.runtime-core.d.ts",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "dist",
+      "size": 81656
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.dist.runtime-core.esm-bundler.js",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "dist",
+      "size": 314543
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.index.js",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "index",
+      "size": 189
+    },
+    {
+      "pathname": "VUE.@vue.runtime-core.package.json",
+      "package": "@vue",
+      "function": "runtime-core",
+      "name": "package",
+      "size": 831
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.LICENSE",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.README.md",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "README",
+      "size": 198
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 1229203
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.cjs.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 60141
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.cjs.prod.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 55312
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.d.ts",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 43204
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.esm-browser.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 407976
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.esm-browser.prod.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 84400
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.esm-bundler.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 61658
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.global.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 432395
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.dist.runtime-dom.global.prod.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "dist",
+      "size": 83777
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.index.js",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "index",
+      "size": 187
+    },
+    {
+      "pathname": "VUE.@vue.runtime-dom.package.json",
+      "package": "@vue",
+      "function": "runtime-dom",
+      "name": "package",
+      "size": 929
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.LICENSE",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.README.md",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "README",
+      "size": 3881
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.dist",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "dist",
+      "size": 107779
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.dist.server-renderer.cjs.js",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "dist",
+      "size": 38124
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.dist.server-renderer.cjs.prod.js",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "dist",
+      "size": 29033
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.dist.server-renderer.d.ts",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "dist",
+      "size": 4253
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.dist.server-renderer.esm-bundler.js",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "dist",
+      "size": 36165
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.index.js",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "index",
+      "size": 195
+    },
+    {
+      "pathname": "VUE.@vue.server-renderer.package.json",
+      "package": "@vue",
+      "function": "server-renderer",
+      "name": "package",
+      "size": 879
+    },
+    {
+      "pathname": "VUE.@vue.shared.LICENSE",
+      "package": "@vue",
+      "function": "shared",
+      "name": "LICENSE",
+      "size": 1091
+    },
+    {
+      "pathname": "VUE.@vue.shared.README.md",
+      "package": "@vue",
+      "function": "shared",
+      "name": "README",
+      "size": 87
+    },
+    {
+      "pathname": "VUE.@vue.shared.dist",
+      "package": "@vue",
+      "function": "shared",
+      "name": "dist",
+      "size": 86494
+    },
+    {
+      "pathname": "VUE.@vue.shared.dist.shared.cjs.js",
+      "package": "@vue",
+      "function": "shared",
+      "name": "dist",
+      "size": 25270
+    },
+    {
+      "pathname": "VUE.@vue.shared.dist.shared.cjs.prod.js",
+      "package": "@vue",
+      "function": "shared",
+      "name": "dist",
+      "size": 25236
+    },
+    {
+      "pathname": "VUE.@vue.shared.dist.shared.d.ts",
+      "package": "@vue",
+      "function": "shared",
+      "name": "dist",
+      "size": 11715
+    },
+    {
+      "pathname": "VUE.@vue.shared.dist.shared.esm-bundler.js",
+      "package": "@vue",
+      "function": "shared",
+      "name": "dist",
+      "size": 24069
+    },
+    {
+      "pathname": "VUE.@vue.shared.index.js",
+      "package": "@vue",
+      "function": "shared",
+      "name": "index",
+      "size": 177
+    },
+    {
+      "pathname": "VUE.@vue.shared.package.json",
+      "package": "@vue",
+      "function": "shared",
+      "name": "package",
+      "size": 710
+    },
+    {
+      "pathname": "VUE.csstype.README.md",
+      "package": "csstype",
+      "function": "README",
+      "name": "md",
+      "size": 9026
+    },
+    {
+      "pathname": "VUE.csstype.index.d.ts",
+      "package": "csstype",
+      "function": "index",
+      "name": "d",
+      "size": 1651497
+    },
+    {
+      "pathname": "VUE.csstype.index.js.flow",
+      "package": "csstype",
+      "function": "index",
+      "name": "js",
+      "size": 290240
+    },
+    {
+      "pathname": "VUE.csstype.package.json",
+      "package": "csstype",
+      "function": "package",
+      "name": "json",
+      "size": 1928
+    },
+    {
+      "pathname": "VUE.esbuild.README.md",
+      "package": "esbuild",
+      "function": "README",
+      "name": "md",
+      "size": 175
+    },
+    {
+      "pathname": "VUE.esbuild.bin.esbuild",
+      "package": "esbuild",
+      "function": "bin",
+      "name": "esbuild",
+      "size": 8513536
+    },
+    {
+      "pathname": "VUE.esbuild.install.js",
+      "package": "esbuild",
+      "function": "install",
+      "name": "js",
+      "size": 9428
+    },
+    {
+      "pathname": "VUE.esbuild.lib.main.d.ts",
+      "package": "esbuild",
+      "function": "lib",
+      "name": "main",
+      "size": 17724
+    },
+    {
+      "pathname": "VUE.esbuild.lib.main.js",
+      "package": "esbuild",
+      "function": "lib",
+      "name": "main",
+      "size": 82131
+    },
+    {
+      "pathname": "VUE.esbuild.package.json",
+      "package": "esbuild",
+      "function": "package",
+      "name": "json",
+      "size": 1179
+    },
+    {
+      "pathname": "VUE.esbuild-darwin-64.README.md",
+      "package": "esbuild-darwin-64",
+      "function": "README",
+      "name": "md",
+      "size": 141
+    },
+    {
+      "pathname": "VUE.esbuild-darwin-64.bin.esbuild",
+      "package": "esbuild-darwin-64",
+      "function": "bin",
+      "name": "esbuild",
+      "size": 8513536
+    },
+    {
+      "pathname": "VUE.esbuild-darwin-64.package.json",
+      "package": "esbuild-darwin-64",
+      "function": "package",
+      "name": "json",
+      "size": 330
+    },
+    {
+      "pathname": "VUE.estree-walker.CHANGELOG.md",
+      "package": "estree-walker",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 1548
+    },
+    {
+      "pathname": "VUE.estree-walker.README.md",
+      "package": "estree-walker",
+      "function": "README",
+      "name": "md",
+      "size": 1623
+    },
+    {
+      "pathname": "VUE.estree-walker.dist.esm",
+      "package": "estree-walker",
+      "function": "dist",
+      "name": "esm",
+      "size": 7311
+    },
+    {
+      "pathname": "VUE.estree-walker.dist.esm.estree-walker.js",
+      "package": "estree-walker",
+      "function": "dist",
+      "name": "esm",
+      "size": 7158
+    },
+    {
+      "pathname": "VUE.estree-walker.dist.esm.package.json",
+      "package": "estree-walker",
+      "function": "dist",
+      "name": "esm",
+      "size": 17
+    },
+    {
+      "pathname": "VUE.estree-walker.dist.umd",
+      "package": "estree-walker",
+      "function": "dist",
+      "name": "umd",
+      "size": 7930
+    },
+    {
+      "pathname": "VUE.estree-walker.dist.umd.estree-walker.js",
+      "package": "estree-walker",
+      "function": "dist",
+      "name": "umd",
+      "size": 7828
+    },
+    {
+      "pathname": "VUE.estree-walker.package.json",
+      "package": "estree-walker",
+      "function": "package",
+      "name": "json",
+      "size": 848
+    },
+    {
+      "pathname": "VUE.estree-walker.src.async.js",
+      "package": "estree-walker",
+      "function": "src",
+      "name": "async",
+      "size": 2712
+    },
+    {
+      "pathname": "VUE.estree-walker.src.index.js",
+      "package": "estree-walker",
+      "function": "src",
+      "name": "index",
+      "size": 842
+    },
+    {
+      "pathname": "VUE.estree-walker.src.package.json",
+      "package": "estree-walker",
+      "function": "src",
+      "name": "package",
+      "size": 18
+    },
+    {
+      "pathname": "VUE.estree-walker.src.sync.js",
+      "package": "estree-walker",
+      "function": "src",
+      "name": "sync",
+      "size": 2659
+    },
+    {
+      "pathname": "VUE.estree-walker.src.walker.js",
+      "package": "estree-walker",
+      "function": "src",
+      "name": "walker",
+      "size": 1114
+    },
+    {
+      "pathname": "VUE.estree-walker.types.async.d.ts",
+      "package": "estree-walker",
+      "function": "types",
+      "name": "async",
+      "size": 1939
+    },
+    {
+      "pathname": "VUE.estree-walker.types.index.d.ts",
+      "package": "estree-walker",
+      "function": "types",
+      "name": "index",
+      "size": 2242
+    },
+    {
+      "pathname": "VUE.estree-walker.types.sync.d.ts",
+      "package": "estree-walker",
+      "function": "types",
+      "name": "sync",
+      "size": 1879
+    },
+    {
+      "pathname": "VUE.estree-walker.types.tsconfig.tsbuildinfo",
+      "package": "estree-walker",
+      "function": "types",
+      "name": "tsconfig",
+      "size": 15666
+    },
+    {
+      "pathname": "VUE.estree-walker.types.walker.d.ts",
+      "package": "estree-walker",
+      "function": "types",
+      "name": "walker",
+      "size": 1024
+    },
+    {
+      "pathname": "VUE.fsevents.README.md",
+      "package": "fsevents",
+      "function": "README",
+      "name": "md",
+      "size": 2958
+    },
+    {
+      "pathname": "VUE.fsevents.fsevents.d.ts",
+      "package": "fsevents",
+      "function": "fsevents",
+      "name": "d",
+      "size": 1431
+    },
+    {
+      "pathname": "VUE.fsevents.fsevents.js",
+      "package": "fsevents",
+      "function": "fsevents",
+      "name": "js",
+      "size": 2424
+    },
+    {
+      "pathname": "VUE.fsevents.fsevents.node",
+      "package": "fsevents",
+      "function": "fsevents",
+      "name": "node",
+      "size": 147128
+    },
+    {
+      "pathname": "VUE.fsevents.package.json",
+      "package": "fsevents",
+      "function": "package",
+      "name": "json",
+      "size": 1348
+    },
+    {
+      "pathname": "VUE.function-bind.README.md",
+      "package": "function-bind",
+      "function": "README",
+      "name": "md",
+      "size": 1488
+    },
+    {
+      "pathname": "VUE.function-bind.implementation.js",
+      "package": "function-bind",
+      "function": "implementation",
+      "name": "js",
+      "size": 1463
+    },
+    {
+      "pathname": "VUE.function-bind.index.js",
+      "package": "function-bind",
+      "function": "index",
+      "name": "js",
+      "size": 126
+    },
+    {
+      "pathname": "VUE.function-bind.package.json",
+      "package": "function-bind",
+      "function": "package",
+      "name": "json",
+      "size": 1498
+    },
+    {
+      "pathname": "VUE.function-bind.test.index.js",
+      "package": "function-bind",
+      "function": "test",
+      "name": "index",
+      "size": 8991
+    },
+    {
+      "pathname": "VUE.has.README.md",
+      "package": "has",
+      "function": "README",
+      "name": "md",
+      "size": 239
+    },
+    {
+      "pathname": "VUE.has.package.json",
+      "package": "has",
+      "function": "package",
+      "name": "json",
+      "size": 1011
+    },
+    {
+      "pathname": "VUE.has.src.index.js",
+      "package": "has",
+      "function": "src",
+      "name": "index",
+      "size": 129
+    },
+    {
+      "pathname": "VUE.has.test.index.js",
+      "package": "has",
+      "function": "test",
+      "name": "index",
+      "size": 331
+    },
+    {
+      "pathname": "VUE.is-core-module.CHANGELOG.md",
+      "package": "is-core-module",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 10629
+    },
+    {
+      "pathname": "VUE.is-core-module.README.md",
+      "package": "is-core-module",
+      "function": "README",
+      "name": "md",
+      "size": 1659
+    },
+    {
+      "pathname": "VUE.is-core-module.core.json",
+      "package": "is-core-module",
+      "function": "core",
+      "name": "json",
+      "size": 5492
+    },
+    {
+      "pathname": "VUE.is-core-module.index.js",
+      "package": "is-core-module",
+      "function": "index",
+      "name": "js",
+      "size": 1757
+    },
+    {
+      "pathname": "VUE.is-core-module.package.json",
+      "package": "is-core-module",
+      "function": "package",
+      "name": "json",
+      "size": 1680
+    },
+    {
+      "pathname": "VUE.is-core-module.test.index.js",
+      "package": "is-core-module",
+      "function": "test",
+      "name": "index",
+      "size": 4076
+    },
+    {
+      "pathname": "VUE.magic-string.README.md",
+      "package": "magic-string",
+      "function": "README",
+      "name": "md",
+      "size": 9313
+    },
+    {
+      "pathname": "VUE.magic-string.dist.magic-string.cjs.js",
+      "package": "magic-string",
+      "function": "dist",
+      "name": "magic-string",
+      "size": 33911
+    },
+    {
+      "pathname": "VUE.magic-string.dist.magic-string.cjs.js.map",
+      "package": "magic-string",
+      "function": "dist",
+      "name": "magic-string",
+      "size": 80859
+    },
+    {
+      "pathname": "VUE.magic-string.dist.magic-string.es.js",
+      "package": "magic-string",
+      "function": "dist",
+      "name": "magic-string",
+      "size": 33714
+    },
+    {
+      "pathname": "VUE.magic-string.dist.magic-string.es.js.map",
+      "package": "magic-string",
+      "function": "dist",
+      "name": "magic-string",
+      "size": 80361
+    },
+    {
+      "pathname": "VUE.magic-string.dist.magic-string.umd.js",
+      "package": "magic-string",
+      "function": "dist",
+      "name": "magic-string",
+      "size": 37176
+    },
+    {
+      "pathname": "VUE.magic-string.dist.magic-string.umd.js.map",
+      "package": "magic-string",
+      "function": "dist",
+      "name": "magic-string",
+      "size": 87487
+    },
+    {
+      "pathname": "VUE.magic-string.index.d.ts",
+      "package": "magic-string",
+      "function": "index",
+      "name": "d",
+      "size": 7678
+    },
+    {
+      "pathname": "VUE.magic-string.package.json",
+      "package": "magic-string",
+      "function": "package",
+      "name": "json",
+      "size": 1506
+    },
+    {
+      "pathname": "VUE.nanoid.README.md",
+      "package": "nanoid",
+      "function": "README",
+      "name": "md",
+      "size": 1557
+    },
+    {
+      "pathname": "VUE.nanoid.async.index.browser.cjs",
+      "package": "nanoid",
+      "function": "async",
+      "name": "index",
+      "size": 983
+    },
+    {
+      "pathname": "VUE.nanoid.async.index.browser.js",
+      "package": "nanoid",
+      "function": "async",
+      "name": "index",
+      "size": 973
+    },
+    {
+      "pathname": "VUE.nanoid.async.index.cjs",
+      "package": "nanoid",
+      "function": "async",
+      "name": "index",
+      "size": 993
+    },
+    {
+      "pathname": "VUE.nanoid.async.index.d.ts",
+      "package": "nanoid",
+      "function": "async",
+      "name": "index",
+      "size": 1505
+    },
+    {
+      "pathname": "VUE.nanoid.async.index.js",
+      "package": "nanoid",
+      "function": "async",
+      "name": "index",
+      "size": 976
+    },
+    {
+      "pathname": "VUE.nanoid.async.index.native.js",
+      "package": "nanoid",
+      "function": "async",
+      "name": "index",
+      "size": 814
+    },
+    {
+      "pathname": "VUE.nanoid.async.package.json",
+      "package": "nanoid",
+      "function": "async",
+      "name": "package",
+      "size": 233
+    },
+    {
+      "pathname": "VUE.nanoid.bin.nanoid.cjs",
+      "package": "nanoid",
+      "function": "bin",
+      "name": "nanoid",
+      "size": 1129
+    },
+    {
+      "pathname": "VUE.nanoid.index.browser.cjs",
+      "package": "nanoid",
+      "function": "index",
+      "name": "browser",
+      "size": 1074
+    },
+    {
+      "pathname": "VUE.nanoid.index.browser.js",
+      "package": "nanoid",
+      "function": "index",
+      "name": "browser",
+      "size": 1060
+    },
+    {
+      "pathname": "VUE.nanoid.index.cjs",
+      "package": "nanoid",
+      "function": "index",
+      "name": "cjs",
+      "size": 1343
+    },
+    {
+      "pathname": "VUE.nanoid.index.d.ts",
+      "package": "nanoid",
+      "function": "index",
+      "name": "d",
+      "size": 2252
+    },
+    {
+      "pathname": "VUE.nanoid.index.js",
+      "package": "nanoid",
+      "function": "index",
+      "name": "js",
+      "size": 1326
+    },
+    {
+      "pathname": "VUE.nanoid.nanoid.js",
+      "package": "nanoid",
+      "function": "nanoid",
+      "name": "js",
+      "size": 169
+    },
+    {
+      "pathname": "VUE.nanoid.non-secure.index.cjs",
+      "package": "nanoid",
+      "function": "non-secure",
+      "name": "index",
+      "size": 499
+    },
+    {
+      "pathname": "VUE.nanoid.non-secure.index.d.ts",
+      "package": "nanoid",
+      "function": "non-secure",
+      "name": "index",
+      "size": 983
+    },
+    {
+      "pathname": "VUE.nanoid.non-secure.index.js",
+      "package": "nanoid",
+      "function": "non-secure",
+      "name": "index",
+      "size": 489
+    },
+    {
+      "pathname": "VUE.nanoid.non-secure.package.json",
+      "package": "nanoid",
+      "function": "non-secure",
+      "name": "package",
+      "size": 99
+    },
+    {
+      "pathname": "VUE.nanoid.package.json",
+      "package": "nanoid",
+      "function": "package",
+      "name": "json",
+      "size": 1702
+    },
+    {
+      "pathname": "VUE.nanoid.url-alphabet.index.cjs",
+      "package": "nanoid",
+      "function": "url-alphabet",
+      "name": "index",
+      "size": 120
+    },
+    {
+      "pathname": "VUE.nanoid.url-alphabet.index.js",
+      "package": "nanoid",
+      "function": "url-alphabet",
+      "name": "index",
+      "size": 110
+    },
+    {
+      "pathname": "VUE.nanoid.url-alphabet.package.json",
+      "package": "nanoid",
+      "function": "url-alphabet",
+      "name": "package",
+      "size": 99
+    },
+    {
+      "pathname": "VUE.path-parse.README.md",
+      "package": "path-parse",
+      "function": "README",
+      "name": "md",
+      "size": 871
+    },
+    {
+      "pathname": "VUE.path-parse.index.js",
+      "package": "path-parse",
+      "function": "index",
+      "name": "js",
+      "size": 1893
+    },
+    {
+      "pathname": "VUE.path-parse.package.json",
+      "package": "path-parse",
+      "function": "package",
+      "name": "json",
+      "size": 667
+    },
+    {
+      "pathname": "VUE.picocolors.README.md",
+      "package": "picocolors",
+      "function": "README",
+      "name": "md",
+      "size": 622
+    },
+    {
+      "pathname": "VUE.picocolors.package.json",
+      "package": "picocolors",
+      "function": "package",
+      "name": "json",
+      "size": 550
+    },
+    {
+      "pathname": "VUE.picocolors.picocolors.browser.js",
+      "package": "picocolors",
+      "function": "picocolors",
+      "name": "browser",
+      "size": 360
+    },
+    {
+      "pathname": "VUE.picocolors.picocolors.d.ts",
+      "package": "picocolors",
+      "function": "picocolors",
+      "name": "d",
+      "size": 138
+    },
+    {
+      "pathname": "VUE.picocolors.picocolors.js",
+      "package": "picocolors",
+      "function": "picocolors",
+      "name": "js",
+      "size": 2594
+    },
+    {
+      "pathname": "VUE.picocolors.types.ts",
+      "package": "picocolors",
+      "function": "types",
+      "name": "ts",
+      "size": 610
+    },
+    {
+      "pathname": "VUE.postcss.README.md",
+      "package": "postcss",
+      "function": "README",
+      "name": "md",
+      "size": 1965
+    },
+    {
+      "pathname": "VUE.postcss.lib.at-rule.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "at-rule",
+      "size": 2498
+    },
+    {
+      "pathname": "VUE.postcss.lib.at-rule.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "at-rule",
+      "size": 471
+    },
+    {
+      "pathname": "VUE.postcss.lib.comment.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "comment",
+      "size": 1376
+    },
+    {
+      "pathname": "VUE.postcss.lib.comment.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "comment",
+      "size": 203
+    },
+    {
+      "pathname": "VUE.postcss.lib.container.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "container",
+      "size": 12590
+    },
+    {
+      "pathname": "VUE.postcss.lib.container.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "container",
+      "size": 10228
+    },
+    {
+      "pathname": "VUE.postcss.lib.css-syntax-error.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "css-syntax-error",
+      "size": 6223
+    },
+    {
+      "pathname": "VUE.postcss.lib.css-syntax-error.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "css-syntax-error",
+      "size": 2524
+    },
+    {
+      "pathname": "VUE.postcss.lib.declaration.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "declaration",
+      "size": 3059
+    },
+    {
+      "pathname": "VUE.postcss.lib.declaration.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "declaration",
+      "size": 495
+    },
+    {
+      "pathname": "VUE.postcss.lib.document.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "document",
+      "size": 1524
+    },
+    {
+      "pathname": "VUE.postcss.lib.document.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "document",
+      "size": 654
+    },
+    {
+      "pathname": "VUE.postcss.lib.fromJSON.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "fromJSON",
+      "size": 107
+    },
+    {
+      "pathname": "VUE.postcss.lib.fromJSON.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "fromJSON",
+      "size": 1506
+    },
+    {
+      "pathname": "VUE.postcss.lib.input.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "input",
+      "size": 3466
+    },
+    {
+      "pathname": "VUE.postcss.lib.input.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "input",
+      "size": 6189
+    },
+    {
+      "pathname": "VUE.postcss.lib.lazy-result.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "lazy-result",
+      "size": 4630
+    },
+    {
+      "pathname": "VUE.postcss.lib.lazy-result.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "lazy-result",
+      "size": 13562
+    },
+    {
+      "pathname": "VUE.postcss.lib.list.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "list",
+      "size": 1262
+    },
+    {
+      "pathname": "VUE.postcss.lib.list.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "list",
+      "size": 1167
+    },
+    {
+      "pathname": "VUE.postcss.lib.map-generator.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "map-generator",
+      "size": 8786
+    },
+    {
+      "pathname": "VUE.postcss.lib.no-work-result.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "no-work-result",
+      "size": 1323
+    },
+    {
+      "pathname": "VUE.postcss.lib.no-work-result.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "no-work-result",
+      "size": 2551
+    },
+    {
+      "pathname": "VUE.postcss.lib.node.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "node",
+      "size": 12457
+    },
+    {
+      "pathname": "VUE.postcss.lib.node.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "node",
+      "size": 8485
+    },
+    {
+      "pathname": "VUE.postcss.lib.parse.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "parse",
+      "size": 89
+    },
+    {
+      "pathname": "VUE.postcss.lib.parse.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "parse",
+      "size": 1147
+    },
+    {
+      "pathname": "VUE.postcss.lib.parser.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "parser",
+      "size": 14482
+    },
+    {
+      "pathname": "VUE.postcss.lib.postcss.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "postcss",
+      "size": 11357
+    },
+    {
+      "pathname": "VUE.postcss.lib.postcss.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "postcss",
+      "size": 2786
+    },
+    {
+      "pathname": "VUE.postcss.lib.postcss.mjs",
+      "package": "postcss",
+      "function": "lib",
+      "name": "postcss",
+      "size": 980
+    },
+    {
+      "pathname": "VUE.postcss.lib.previous-map.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "previous-map",
+      "size": 1618
+    },
+    {
+      "pathname": "VUE.postcss.lib.previous-map.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "previous-map",
+      "size": 3923
+    },
+    {
+      "pathname": "VUE.postcss.lib.processor.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "processor",
+      "size": 3012
+    },
+    {
+      "pathname": "VUE.postcss.lib.processor.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "processor",
+      "size": 1810
+    },
+    {
+      "pathname": "VUE.postcss.lib.result.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "result",
+      "size": 4115
+    },
+    {
+      "pathname": "VUE.postcss.lib.result.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "result",
+      "size": 745
+    },
+    {
+      "pathname": "VUE.postcss.lib.root.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "root",
+      "size": 1856
+    },
+    {
+      "pathname": "VUE.postcss.lib.root.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "root",
+      "size": 1209
+    },
+    {
+      "pathname": "VUE.postcss.lib.rule.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "rule",
+      "size": 2395
+    },
+    {
+      "pathname": "VUE.postcss.lib.rule.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "rule",
+      "size": 569
+    },
+    {
+      "pathname": "VUE.postcss.lib.stringifier.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "stringifier",
+      "size": 1202
+    },
+    {
+      "pathname": "VUE.postcss.lib.stringifier.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "stringifier",
+      "size": 8220
+    },
+    {
+      "pathname": "VUE.postcss.lib.stringify.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "stringify",
+      "size": 107
+    },
+    {
+      "pathname": "VUE.postcss.lib.stringify.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "stringify",
+      "size": 213
+    },
+    {
+      "pathname": "VUE.postcss.lib.symbols.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "symbols",
+      "size": 91
+    },
+    {
+      "pathname": "VUE.postcss.lib.terminal-highlight.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "terminal-highlight",
+      "size": 1399
+    },
+    {
+      "pathname": "VUE.postcss.lib.tokenize.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "tokenize",
+      "size": 6536
+    },
+    {
+      "pathname": "VUE.postcss.lib.warn-once.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "warn-once",
+      "size": 256
+    },
+    {
+      "pathname": "VUE.postcss.lib.warning.d.ts",
+      "package": "postcss",
+      "function": "lib",
+      "name": "warning",
+      "size": 2735
+    },
+    {
+      "pathname": "VUE.postcss.lib.warning.js",
+      "package": "postcss",
+      "function": "lib",
+      "name": "warning",
+      "size": 739
+    },
+    {
+      "pathname": "VUE.postcss.package.json",
+      "package": "postcss",
+      "function": "package",
+      "name": "json",
+      "size": 2450
+    },
+    {
+      "pathname": "VUE.resolve.SECURITY.md",
+      "package": "resolve",
+      "function": "SECURITY",
+      "name": "md",
+      "size": 157
+    },
+    {
+      "pathname": "VUE.resolve.appveyor.yml",
+      "package": "resolve",
+      "function": "appveyor",
+      "name": "yml",
+      "size": 2768
+    },
+    {
+      "pathname": "VUE.resolve.async.js",
+      "package": "resolve",
+      "function": "async",
+      "name": "js",
+      "size": 56
+    },
+    {
+      "pathname": "VUE.resolve.bin.resolve",
+      "package": "resolve",
+      "function": "bin",
+      "name": "resolve",
+      "size": 1473
+    },
+    {
+      "pathname": "VUE.resolve.example.async.js",
+      "package": "resolve",
+      "function": "example",
+      "name": "async",
+      "size": 155
+    },
+    {
+      "pathname": "VUE.resolve.example.sync.js",
+      "package": "resolve",
+      "function": "example",
+      "name": "sync",
+      "size": 103
+    },
+    {
+      "pathname": "VUE.resolve.index.js",
+      "package": "resolve",
+      "function": "index",
+      "name": "js",
+      "size": 174
+    },
+    {
+      "pathname": "VUE.resolve.lib.async.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "async",
+      "size": 11359
+    },
+    {
+      "pathname": "VUE.resolve.lib.caller.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "caller",
+      "size": 354
+    },
+    {
+      "pathname": "VUE.resolve.lib.core.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "core",
+      "size": 1653
+    },
+    {
+      "pathname": "VUE.resolve.lib.core.json",
+      "package": "resolve",
+      "function": "lib",
+      "name": "core",
+      "size": 5469
+    },
+    {
+      "pathname": "VUE.resolve.lib.homedir.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "homedir",
+      "size": 805
+    },
+    {
+      "pathname": "VUE.resolve.lib.is-core.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "is-core",
+      "size": 116
+    },
+    {
+      "pathname": "VUE.resolve.lib.node-modules-paths.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "node-modules-paths",
+      "size": 1294
+    },
+    {
+      "pathname": "VUE.resolve.lib.normalize-options.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "normalize-options",
+      "size": 348
+    },
+    {
+      "pathname": "VUE.resolve.lib.sync.js",
+      "package": "resolve",
+      "function": "lib",
+      "name": "sync",
+      "size": 6993
+    },
+    {
+      "pathname": "VUE.resolve.package.json",
+      "package": "resolve",
+      "function": "package",
+      "name": "json",
+      "size": 1765
+    },
+    {
+      "pathname": "VUE.resolve.readme.markdown",
+      "package": "resolve",
+      "function": "readme",
+      "name": "markdown",
+      "size": 11504
+    },
+    {
+      "pathname": "VUE.resolve.sync.js",
+      "package": "resolve",
+      "function": "sync",
+      "name": "js",
+      "size": 55
+    },
+    {
+      "pathname": "VUE.resolve.test.core.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "core",
+      "size": 2671
+    },
+    {
+      "pathname": "VUE.resolve.test.dotdot",
+      "package": "resolve",
+      "function": "test",
+      "name": "dotdot",
+      "size": 306
+    },
+    {
+      "pathname": "VUE.resolve.test.dotdot.abc",
+      "package": "resolve",
+      "function": "test",
+      "name": "dotdot",
+      "size": 141
+    },
+    {
+      "pathname": "VUE.resolve.test.dotdot.abc.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "dotdot",
+      "size": 39
+    },
+    {
+      "pathname": "VUE.resolve.test.dotdot.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "dotdot",
+      "size": 29
+    },
+    {
+      "pathname": "VUE.resolve.test.dotdot.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "dotdot",
+      "size": 799
+    },
+    {
+      "pathname": "VUE.resolve.test.faulty_basedir.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "faulty_basedir",
+      "size": 807
+    },
+    {
+      "pathname": "VUE.resolve.test.filter.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "filter",
+      "size": 1045
+    },
+    {
+      "pathname": "VUE.resolve.test.filter_sync.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "filter_sync",
+      "size": 1427
+    },
+    {
+      "pathname": "VUE.resolve.test.home_paths.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "home_paths",
+      "size": 4472
+    },
+    {
+      "pathname": "VUE.resolve.test.home_paths_sync.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "home_paths_sync",
+      "size": 3797
+    },
+    {
+      "pathname": "VUE.resolve.test.mock.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "mock",
+      "size": 10012
+    },
+    {
+      "pathname": "VUE.resolve.test.mock_sync.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "mock_sync",
+      "size": 6047
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 993
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.xmodules",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 255
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.xmodules.aaa",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 153
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.xmodules.aaa.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 51
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.ymodules",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 255
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.ymodules.aaa",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 153
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.ymodules.aaa.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 51
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.zmodules",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 313
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.zmodules.bbb",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 211
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.zmodules.bbb.main.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 51
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.zmodules.bbb.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 24
+    },
+    {
+      "pathname": "VUE.resolve.test.module_dir.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "module_dir",
+      "size": 1558
+    },
+    {
+      "pathname": "VUE.resolve.test.node-modules-paths.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "node-modules-paths",
+      "size": 5101
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 905
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.x",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 384
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.x.aaa",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 124
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.x.aaa.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 22
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.x.ccc",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 124
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.x.ccc.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 22
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.y",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 385
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.y.bbb",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 124
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.y.bbb.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 22
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.y.ccc",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 125
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.y.ccc.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 23
+    },
+    {
+      "pathname": "VUE.resolve.test.node_path.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "node_path",
+      "size": 2128
+    },
+    {
+      "pathname": "VUE.resolve.test.nonstring.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "nonstring",
+      "size": 182
+    },
+    {
+      "pathname": "VUE.resolve.test.pathfilter",
+      "package": "resolve",
+      "function": "test",
+      "name": "pathfilter",
+      "size": 204
+    },
+    {
+      "pathname": "VUE.resolve.test.pathfilter.deep_ref",
+      "package": "resolve",
+      "function": "test",
+      "name": "pathfilter",
+      "size": 102
+    },
+    {
+      "pathname": "VUE.resolve.test.pathfilter.deep_ref.main.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "pathfilter",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.pathfilter.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "pathfilter",
+      "size": 2248
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 587
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.aaa",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 189
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.aaa.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 25
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.aaa.main.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 28
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.aaa.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 24
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.bbb",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 146
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.bbb.main.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 44
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.bbb.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 24
+    },
+    {
+      "pathname": "VUE.resolve.test.precedence.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "precedence",
+      "size": 646
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 8645
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.baz",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 235
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.baz.doom.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.baz.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 45
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.baz.quux.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.browser_field",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 233
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.browser_field.a.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.browser_field.b.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.browser_field.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 63
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.cup.coffee",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 1
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.dot_main",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 176
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.dot_main.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.dot_main.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.dot_slash_main",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 177
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.dot_slash_main.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.dot_slash_main.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 21
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.foo.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.incorrect_main",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 279
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.incorrect_main.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 116
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.incorrect_main.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 27
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.invalid_main",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 195
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.invalid_main.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 93
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.malformed_package_json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 138
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.malformed_package_json.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.malformed_package_json.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 2
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.mug.coffee",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.mug.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 2902
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.lerna.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 63
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 380
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 2289
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages.package-a",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 1736
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages.package-a.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 1319
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages.package-a.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 281
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages.package-b",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 417
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages.package-b.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.multirepo.packages.package-b.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 281
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.nested_symlinks",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 1995
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.nested_symlinks.mylib",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 1893
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.nested_symlinks.mylib.async.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 858
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.nested_symlinks.mylib.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 259
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.nested_symlinks.mylib.sync.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 606
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.other_path",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 238
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.other_path.lib",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 102
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.other_path.lib.other-lib.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.other_path.root.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.quux",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 224
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.quux.foo",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 122
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.quux.foo.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.same_names",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 279
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.same_names.foo",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 122
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.same_names.foo.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 20
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.same_names.foo.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 21
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 660
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked._",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 340
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked._.node_modules",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 102
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked._.node_modules.foo.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked._.symlink_target",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 102
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked.package",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 184
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked.package.bar.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 24
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.symlinked.package.package.json",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 24
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.without_basedir",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 213
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.without_basedir.main.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 111
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver",
+      "size": 18556
+    },
+    {
+      "pathname": "VUE.resolve.test.resolver_sync.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "resolver_sync",
+      "size": 18010
+    },
+    {
+      "pathname": "VUE.resolve.test.shadowed_core",
+      "package": "resolve",
+      "function": "test",
+      "name": "shadowed_core",
+      "size": 306
+    },
+    {
+      "pathname": "VUE.resolve.test.shadowed_core.node_modules",
+      "package": "resolve",
+      "function": "test",
+      "name": "shadowed_core",
+      "size": 204
+    },
+    {
+      "pathname": "VUE.resolve.test.shadowed_core.node_modules.util",
+      "package": "resolve",
+      "function": "test",
+      "name": "shadowed_core",
+      "size": 102
+    },
+    {
+      "pathname": "VUE.resolve.test.shadowed_core.node_modules.util.index.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "shadowed_core",
+      "size": 0
+    },
+    {
+      "pathname": "VUE.resolve.test.shadowed_core.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "shadowed_core",
+      "size": 1814
+    },
+    {
+      "pathname": "VUE.resolve.test.subdirs.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "subdirs",
+      "size": 353
+    },
+    {
+      "pathname": "VUE.resolve.test.symlinks.js",
+      "package": "resolve",
+      "function": "test",
+      "name": "symlinks",
+      "size": 6535
+    },
+    {
+      "pathname": "VUE.rollup.CHANGELOG.md",
+      "package": "rollup",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 242619
+    },
+    {
+      "pathname": "VUE.rollup.LICENSE.md",
+      "package": "rollup",
+      "function": "LICENSE",
+      "name": "md",
+      "size": 35412
+    },
+    {
+      "pathname": "VUE.rollup.README.md",
+      "package": "rollup",
+      "function": "README",
+      "name": "md",
+      "size": 8835
+    },
+    {
+      "pathname": "VUE.rollup.dist.bin",
+      "package": "rollup",
+      "function": "dist",
+      "name": "bin",
+      "size": 73465
+    },
+    {
+      "pathname": "VUE.rollup.dist.bin.rollup",
+      "package": "rollup",
+      "function": "dist",
+      "name": "bin",
+      "size": 73363
+    },
+    {
+      "pathname": "VUE.rollup.dist.es",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 1419210
+    },
+    {
+      "pathname": "VUE.rollup.dist.es.package.json",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 17
+    },
+    {
+      "pathname": "VUE.rollup.dist.es.rollup.browser.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 395242
+    },
+    {
+      "pathname": "VUE.rollup.dist.es.rollup.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 373
+    },
+    {
+      "pathname": "VUE.rollup.dist.es.shared",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 1023374
+    },
+    {
+      "pathname": "VUE.rollup.dist.es.shared.rollup.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 884933
+    },
+    {
+      "pathname": "VUE.rollup.dist.es.shared.watch.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "es",
+      "size": 138305
+    },
+    {
+      "pathname": "VUE.rollup.dist.loadConfigFile.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "loadConfigFile",
+      "size": 578
+    },
+    {
+      "pathname": "VUE.rollup.dist.rollup.browser.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "rollup",
+      "size": 394586
+    },
+    {
+      "pathname": "VUE.rollup.dist.rollup.browser.js.map",
+      "package": "rollup",
+      "function": "dist",
+      "name": "rollup",
+      "size": 3298388
+    },
+    {
+      "pathname": "VUE.rollup.dist.rollup.d.ts",
+      "package": "rollup",
+      "function": "dist",
+      "name": "rollup",
+      "size": 26978
+    },
+    {
+      "pathname": "VUE.rollup.dist.rollup.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "rollup",
+      "size": 649
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 1066835
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared.index.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 121328
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared.loadConfigFile.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 24436
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared.mergeOptions.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 8170
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared.rollup.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 886672
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared.watch-cli.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 15885
+    },
+    {
+      "pathname": "VUE.rollup.dist.shared.watch.js",
+      "package": "rollup",
+      "function": "dist",
+      "name": "shared",
+      "size": 10072
+    },
+    {
+      "pathname": "VUE.rollup.package.json",
+      "package": "rollup",
+      "function": "package",
+      "name": "json",
+      "size": 5460
+    },
+    {
+      "pathname": "VUE.source-map.CHANGELOG.md",
+      "package": "source-map",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 7884
+    },
+    {
+      "pathname": "VUE.source-map.README.md",
+      "package": "source-map",
+      "function": "README",
+      "name": "md",
+      "size": 24072
+    },
+    {
+      "pathname": "VUE.source-map.dist.source-map.debug.js",
+      "package": "source-map",
+      "function": "dist",
+      "name": "source-map",
+      "size": 272874
+    },
+    {
+      "pathname": "VUE.source-map.dist.source-map.js",
+      "package": "source-map",
+      "function": "dist",
+      "name": "source-map",
+      "size": 106973
+    },
+    {
+      "pathname": "VUE.source-map.dist.source-map.min.js",
+      "package": "source-map",
+      "function": "dist",
+      "name": "source-map",
+      "size": 27111
+    },
+    {
+      "pathname": "VUE.source-map.dist.source-map.min.js.map",
+      "package": "source-map",
+      "function": "dist",
+      "name": "source-map",
+      "size": 257409
+    },
+    {
+      "pathname": "VUE.source-map.lib.array-set.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "array-set",
+      "size": 3197
+    },
+    {
+      "pathname": "VUE.source-map.lib.base64-vlq.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "base64-vlq",
+      "size": 4714
+    },
+    {
+      "pathname": "VUE.source-map.lib.base64.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "base64",
+      "size": 1540
+    },
+    {
+      "pathname": "VUE.source-map.lib.binary-search.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "binary-search",
+      "size": 4249
+    },
+    {
+      "pathname": "VUE.source-map.lib.mapping-list.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "mapping-list",
+      "size": 2339
+    },
+    {
+      "pathname": "VUE.source-map.lib.quick-sort.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "quick-sort",
+      "size": 3616
+    },
+    {
+      "pathname": "VUE.source-map.lib.source-map-consumer.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "source-map-consumer",
+      "size": 40562
+    },
+    {
+      "pathname": "VUE.source-map.lib.source-map-generator.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "source-map-generator",
+      "size": 14356
+    },
+    {
+      "pathname": "VUE.source-map.lib.source-node.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "source-node",
+      "size": 13808
+    },
+    {
+      "pathname": "VUE.source-map.lib.util.js",
+      "package": "source-map",
+      "function": "lib",
+      "name": "util",
+      "size": 12950
+    },
+    {
+      "pathname": "VUE.source-map.package.json",
+      "package": "source-map",
+      "function": "package",
+      "name": "json",
+      "size": 2579
+    },
+    {
+      "pathname": "VUE.source-map.source-map.d.ts",
+      "package": "source-map",
+      "function": "source-map",
+      "name": "d",
+      "size": 3060
+    },
+    {
+      "pathname": "VUE.source-map.source-map.js",
+      "package": "source-map",
+      "function": "source-map",
+      "name": "js",
+      "size": 405
+    },
+    {
+      "pathname": "VUE.source-map-js.CHANGELOG.md",
+      "package": "source-map-js",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 8606
+    },
+    {
+      "pathname": "VUE.source-map-js.README.md",
+      "package": "source-map-js",
+      "function": "README",
+      "name": "md",
+      "size": 25736
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.array-set.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "array-set",
+      "size": 3197
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.base64-vlq.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "base64-vlq",
+      "size": 4714
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.base64.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "base64",
+      "size": 1540
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.binary-search.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "binary-search",
+      "size": 4249
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.mapping-list.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "mapping-list",
+      "size": 2339
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.quick-sort.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "quick-sort",
+      "size": 4068
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.source-map-consumer.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "source-map-consumer",
+      "size": 41482
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.source-map-generator.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "source-map-generator",
+      "size": 14356
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.source-node.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "source-node",
+      "size": 13808
+    },
+    {
+      "pathname": "VUE.source-map-js.lib.util.js",
+      "package": "source-map-js",
+      "function": "lib",
+      "name": "util",
+      "size": 15403
+    },
+    {
+      "pathname": "VUE.source-map-js.package.json",
+      "package": "source-map-js",
+      "function": "package",
+      "name": "json",
+      "size": 2548
+    },
+    {
+      "pathname": "VUE.source-map-js.source-map.d.ts",
+      "package": "source-map-js",
+      "function": "source-map",
+      "name": "d",
+      "size": 3854
+    },
+    {
+      "pathname": "VUE.source-map-js.source-map.js",
+      "package": "source-map-js",
+      "function": "source-map",
+      "name": "js",
+      "size": 405
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.CHANGELOG.md",
+      "package": "sourcemap-codec",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 1249
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.README.md",
+      "package": "sourcemap-codec",
+      "function": "README",
+      "name": "md",
+      "size": 1835
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.dist.sourcemap-codec.es.js",
+      "package": "sourcemap-codec",
+      "function": "dist",
+      "name": "sourcemap-codec",
+      "size": 4200
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.dist.sourcemap-codec.es.js.map",
+      "package": "sourcemap-codec",
+      "function": "dist",
+      "name": "sourcemap-codec",
+      "size": 8249
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.dist.sourcemap-codec.umd.js",
+      "package": "sourcemap-codec",
+      "function": "dist",
+      "name": "sourcemap-codec",
+      "size": 4717
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.dist.sourcemap-codec.umd.js.map",
+      "package": "sourcemap-codec",
+      "function": "dist",
+      "name": "sourcemap-codec",
+      "size": 8286
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.dist.types",
+      "package": "sourcemap-codec",
+      "function": "dist",
+      "name": "types",
+      "size": 479
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.dist.types.sourcemap-codec.d.ts",
+      "package": "sourcemap-codec",
+      "function": "dist",
+      "name": "types",
+      "size": 377
+    },
+    {
+      "pathname": "VUE.sourcemap-codec.package.json",
+      "package": "sourcemap-codec",
+      "function": "package",
+      "name": "json",
+      "size": 1817
+    },
+    {
+      "pathname": "VUE.supports-preserve-symlinks-flag.CHANGELOG.md",
+      "package": "supports-preserve-symlinks-flag",
+      "function": "CHANGELOG",
+      "name": "md",
+      "size": 1989
+    },
+    {
+      "pathname": "VUE.supports-preserve-symlinks-flag.README.md",
+      "package": "supports-preserve-symlinks-flag",
+      "function": "README",
+      "name": "md",
+      "size": 2287
+    },
+    {
+      "pathname": "VUE.supports-preserve-symlinks-flag.browser.js",
+      "package": "supports-preserve-symlinks-flag",
+      "function": "browser",
+      "name": "js",
+      "size": 38
+    },
+    {
+      "pathname": "VUE.supports-preserve-symlinks-flag.index.js",
+      "package": "supports-preserve-symlinks-flag",
+      "function": "index",
+      "name": "js",
+      "size": 293
+    },
+    {
+      "pathname": "VUE.supports-preserve-symlinks-flag.package.json",
+      "package": "supports-preserve-symlinks-flag",
+      "function": "package",
+      "name": "json",
+      "size": 1895
+    },
+    {
+      "pathname": "VUE.supports-preserve-symlinks-flag.test.index.js",
+      "package": "supports-preserve-symlinks-flag",
+      "function": "test",
+      "name": "index",
+      "size": 737
+    },
+    {
+      "pathname": "VUE.vite.LICENSE.md",
+      "package": "vite",
+      "function": "LICENSE",
+      "name": "md",
+      "size": 182935
+    },
+    {
+      "pathname": "VUE.vite.README.md",
+      "package": "vite",
+      "function": "README",
+      "name": "md",
+      "size": 1164
+    },
+    {
+      "pathname": "VUE.vite.bin.openChrome.applescript",
+      "package": "vite",
+      "function": "bin",
+      "name": "openChrome",
+      "size": 2356
+    },
+    {
+      "pathname": "VUE.vite.bin.vite.js",
+      "package": "vite",
+      "function": "bin",
+      "name": "vite",
+      "size": 1593
+    },
+    {
+      "pathname": "VUE.vite.client.d.ts",
+      "package": "vite",
+      "function": "client",
+      "name": "d",
+      "size": 3720
+    },
+    {
+      "pathname": "VUE.vite.dist.client",
+      "package": "vite",
+      "function": "dist",
+      "name": "client",
+      "size": 54155
+    },
+    {
+      "pathname": "VUE.vite.dist.client.client.mjs",
+      "package": "vite",
+      "function": "dist",
+      "name": "client",
+      "size": 18416
+    },
+    {
+      "pathname": "VUE.vite.dist.client.client.mjs.map",
+      "package": "vite",
+      "function": "dist",
+      "name": "client",
+      "size": 33073
+    },
+    {
+      "pathname": "VUE.vite.dist.client.env.mjs",
+      "package": "vite",
+      "function": "dist",
+      "name": "client",
+      "size": 776
+    },
+    {
+      "pathname": "VUE.vite.dist.client.env.mjs.map",
+      "package": "vite",
+      "function": "dist",
+      "name": "client",
+      "size": 1686
+    },
+    {
+      "pathname": "VUE.vite.dist.node",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 4260268
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 3086039
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks.dep-2056ae8a.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 12828
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks.dep-59dc6e00.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 1937821
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks.dep-739cc694.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 300323
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks.dep-a9015192.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 22032
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks.dep-ac1ae66b.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 590724
+    },
+    {
+      "pathname": "VUE.vite.dist.node.chunks.dep-d2c728c0.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 222039
+    },
+    {
+      "pathname": "VUE.vite.dist.node.cli.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 25563
+    },
+    {
+      "pathname": "VUE.vite.dist.node.index.d.ts",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 99386
+    },
+    {
+      "pathname": "VUE.vite.dist.node.index.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 5751
+    },
+    {
+      "pathname": "VUE.vite.dist.node.terser.js",
+      "package": "vite",
+      "function": "dist",
+      "name": "node",
+      "size": 1043291
+    },
+    {
+      "pathname": "VUE.vite.package.json",
+      "package": "vite",
+      "function": "package",
+      "name": "json",
+      "size": 3901
+    },
+    {
+      "pathname": "VUE.vite.src.client",
+      "package": "vite",
+      "function": "src",
+      "name": "client",
+      "size": 19871
+    },
+    {
+      "pathname": "VUE.vite.src.client.client.ts",
+      "package": "vite",
+      "function": "src",
+      "name": "client",
+      "size": 14437
+    },
+    {
+      "pathname": "VUE.vite.src.client.env.ts",
+      "package": "vite",
+      "function": "src",
+      "name": "client",
+      "size": 729
+    },
+    {
+      "pathname": "VUE.vite.src.client.overlay.ts",
+      "package": "vite",
+      "function": "src",
+      "name": "client",
+      "size": 4262
+    },
+    {
+      "pathname": "VUE.vite.src.client.tsconfig.json",
+      "package": "vite",
+      "function": "src",
+      "name": "client",
+      "size": 239
+    },
+    {
+      "pathname": "VUE.vite.types.alias.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "alias",
+      "size": 2301
+    },
+    {
+      "pathname": "VUE.vite.types.anymatch.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "anymatch",
+      "size": 214
+    },
+    {
+      "pathname": "VUE.vite.types.chokidar.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "chokidar",
+      "size": 7690
+    },
+    {
+      "pathname": "VUE.vite.types.commonjs.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "commonjs",
+      "size": 8663
+    },
+    {
+      "pathname": "VUE.vite.types.connect.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "connect",
+      "size": 3334
+    },
+    {
+      "pathname": "VUE.vite.types.customEvent.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "customEvent",
+      "size": 404
+    },
+    {
+      "pathname": "VUE.vite.types.dynamicImportVars.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "dynamicImportVars",
+      "size": 546
+    },
+    {
+      "pathname": "VUE.vite.types.hmrPayload.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "hmrPayload",
+      "size": 904
+    },
+    {
+      "pathname": "VUE.vite.types.hot.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "hot",
+      "size": 607
+    },
+    {
+      "pathname": "VUE.vite.types.http-proxy.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "http-proxy",
+      "size": 7973
+    },
+    {
+      "pathname": "VUE.vite.types.importMeta.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "importMeta",
+      "size": 1112
+    },
+    {
+      "pathname": "VUE.vite.types.package.json",
+      "package": "vite",
+      "function": "types",
+      "name": "package",
+      "size": 79
+    },
+    {
+      "pathname": "VUE.vite.types.shims.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "shims",
+      "size": 2036
+    },
+    {
+      "pathname": "VUE.vite.types.terser.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "terser",
+      "size": 5733
+    },
+    {
+      "pathname": "VUE.vite.types.ws.d.ts",
+      "package": "vite",
+      "function": "types",
+      "name": "ws",
+      "size": 16436
+    },
+    {
+      "pathname": "VUE.vue.README.md",
+      "package": "vue",
+      "function": "README",
+      "name": "md",
+      "size": 4105
+    },
+    {
+      "pathname": "VUE.vue.compiler-sfc.index.d.ts",
+      "package": "vue",
+      "function": "compiler-sfc",
+      "name": "index",
+      "size": 34
+    },
+    {
+      "pathname": "VUE.vue.compiler-sfc.index.js",
+      "package": "vue",
+      "function": "compiler-sfc",
+      "name": "index",
+      "size": 46
+    },
+    {
+      "pathname": "VUE.vue.compiler-sfc.index.mjs",
+      "package": "vue",
+      "function": "compiler-sfc",
+      "name": "index",
+      "size": 33
+    },
+    {
+      "pathname": "VUE.vue.compiler-sfc.package.json",
+      "package": "vue",
+      "function": "compiler-sfc",
+      "name": "package",
+      "size": 74
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.cjs.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 2725
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.cjs.prod.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 2147
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.d.ts",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 270
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.esm-browser.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 606230
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.esm-browser.prod.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 130931
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.esm-bundler.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 2629
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.global.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 636006
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.global.prod.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 127923
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.runtime.esm-browser.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 408572
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.runtime.esm-browser.prod.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 84424
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.runtime.esm-bundler.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 611
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.runtime.global.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 433029
+    },
+    {
+      "pathname": "VUE.vue.dist.vue.runtime.global.prod.js",
+      "package": "vue",
+      "function": "dist",
+      "name": "vue",
+      "size": 83784
+    },
+    {
+      "pathname": "VUE.vue.index.js",
+      "package": "vue",
+      "function": "index",
+      "name": "js",
+      "size": 171
+    },
+    {
+      "pathname": "VUE.vue.index.mjs",
+      "package": "vue",
+      "function": "index",
+      "name": "mjs",
+      "size": 26
+    },
+    {
+      "pathname": "VUE.vue.macros-global.d.ts",
+      "package": "vue",
+      "function": "macros-global",
+      "name": "d",
+      "size": 414
+    },
+    {
+      "pathname": "VUE.vue.macros.d.ts",
+      "package": "vue",
+      "function": "macros",
+      "name": "d",
+      "size": 2909
+    },
+    {
+      "pathname": "VUE.vue.package.json",
+      "package": "vue",
+      "function": "package",
+      "name": "json",
+      "size": 1841
+    },
+    {
+      "pathname": "VUE.vue.ref-macros.d.ts",
+      "package": "vue",
+      "function": "ref-macros",
+      "name": "d",
+      "size": 90
+    },
+    {
+      "pathname": "VUE.vue.server-renderer.index.d.ts",
+      "package": "vue",
+      "function": "server-renderer",
+      "name": "index",
+      "size": 37
+    },
+    {
+      "pathname": "VUE.vue.server-renderer.index.js",
+      "package": "vue",
+      "function": "server-renderer",
+      "name": "index",
+      "size": 49
+    },
+    {
+      "pathname": "VUE.vue.server-renderer.index.mjs",
+      "package": "vue",
+      "function": "server-renderer",
+      "name": "index",
+      "size": 36
+    },
+    {
+      "pathname": "VUE.vue.server-renderer.package.json",
+      "package": "vue",
+      "function": "server-renderer",
+      "name": "package",
+      "size": 74
+    }
+  ]

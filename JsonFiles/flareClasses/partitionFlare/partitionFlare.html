@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>partition Flare</title>
+    <!-- Cargar d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body>
+    <!-- Crear un div donde se mostrarán los gráficos -->
+    <div id="my_dataviz"></div>
+
+    <script>
+        // establecer las dimensiones y márgenes del gráfico
+        var margin = {top: 50, right: 10, bottom: 10, left: 10},
+            width = 1400 - margin.left - margin.right,
+            height = 600 - margin.top - margin.bottom;
+
+        // añadir el objeto svg al cuerpo de la página
+        var svg = d3.select("#my_dataviz")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(0," + margin.top + ")"); // Mover todo el gráfico hacia abajo por el margen superior
+
+        // Añadir un título
+        svg.append("text")
+            .attr("x", width / 2)
+            .attr("y", -20) // Ajustar la posición del título
+            .attr("text-anchor", "middle")
+            .attr("font-size", "24px")
+            .attr("font-weight", "bold")
+            .text("Modulos y funciones de la clase Flare con layout de partición");
+
+        // leer los datos json
+        // Leer los datos
+        d3.json("../flareOrdenado.json", function(data) {
+
+            data.sort(function(a, b) {
+                return a.package.localeCompare(b.package) || a.function.localeCompare(b.function) || a.name.localeCompare(b.name);
+            });
+
+            // Anidar los datos por PACKAGE y FUNCTION
+            var nestedData = d3.nest()
+                .key(function(d) { return d.package; })
+                .key(function(d) { return d.function; })
+                .entries(data);
+
+            // Definir una escala de color para los paquetes
+            var packageColorScale = d3.scaleOrdinal(d3.schemeCategory10)
+                .domain(nestedData.map(function(d) { return d.key; }));
+
+            var partition = d3.partition()
+                .size([width, height])
+                .padding(1)
+                .round(true);
+
+            var root = d3.hierarchy({ values: nestedData }, function(d) { return d.values; })
+                .sum(function(d) { return 1; }) // Utilizar un valor constante para ignorar la población
+
+            partition(root);
+
+            var nodes = root.descendants();
+
+            // Añadir un grupo para cada nodo
+            var nodeGroups = svg.selectAll("g")
+                .data(nodes)
+                .enter().append("g")
+                .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
+
+            // Añadir rectángulos para cada nodo
+            nodeGroups.append("rect")
+                .attr("x", 0)
+                .attr("y", 0)
+                .attr("width", function(d) { return d.x1 - d.x0; })
+                .attr("height", function(d) { return d.y1 - d.y0; })
+                .style("stroke", "black")
+                .style("fill", function(d) { return packageColorScale(d.data.key); });
+
+            // Añadir texto para el nombre del paquete
+            nodeGroups.filter(function(d) { return d.depth === 1; }) // Filtrar para mostrar texto solo para el primer nivel
+                .append("text")
+                .attr("x", 5)
+                .attr("y", 15)
+                .attr("fill", "black")
+                .attr("transform", "rotate(-90)") // Rotar el texto verticalmente
+                .text(function(d) { return d.data.key; });    
+
+            // Añadir texto para el nombre de la función
+            nodeGroups.filter(function(d) { return d.depth === 2; }) // Filtrar para mostrar texto solo para el primer nivel
+                .append("text")
+                .attr("x", 5)
+                .attr("y", 15)
+                .attr("fill", "black")
+                .attr("transform", "rotate(-90)") // Rotar el texto verticalmente
+                .text(function(d) { return d.data.key; });
+
+            // Añadir un enlace para regresar
+            d3.select("body").append("p").html("<a href='../../../index.html'>Regresar a la página principal</a>");
+
+        });
+    </script>
+</body>
+</html>

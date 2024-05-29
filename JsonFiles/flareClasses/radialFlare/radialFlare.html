@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Radial Flare</title>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body>
+    <h1>Radial Layout de modulos de la clase flare</h1>
+
+    <!-- Create a select element for function selection -->
+    <label for="province-select">Selecciona una función:</label>
+    <select id="province-select"></select>
+    <a href='../../../index.html'>Regresar a la página principal</a>
+    <!-- Create a div where the graph will take place -->
+    <div id="my_dataviz"></div>
+
+    <script>
+        // Definir las dimensiones y márgenes del gráfico
+        var width = 800;
+        var height = 900;
+        var radius = Math.min(width, height) / 2 - 30; // radio del dendrograma
+
+        // Añadir el objeto svg al cuerpo de la página
+        var svg = d3.select("#my_dataviz")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + (height / 2.3 ) + ")"); // Mover todo el gráfico hacia abajo por 50px
+
+
+        // Leer los datos json
+        d3.json("./flareClassesRadial.json", function(data) {
+            // Obtener provincias únicas
+            var provinces = [...new Set(data.map(d => d.function))];
+
+            // Llenar el elemento select con las provincias
+            d3.select("#province-select")
+                .selectAll("option")
+                .data(provinces)
+                .enter()
+                .append("option")
+                .text(d => d)
+                .attr("value", d => d);
+
+            // Función para actualizar el gráfico según la provincia seleccionada
+            function updateChart(selectedProvince) {
+                // Filtrar los datos para incluir solo la provincia seleccionada
+                var selectedData = data.filter(d => d.function === selectedProvince);
+
+                // Agrupar los datos por PROVINCIA y CANTON
+                var nestedData = d3.nest()
+                    .key(function(d) { return d.function; })
+                    .key(function(d) { return d.name; })
+                    .entries(selectedData);
+
+                // Crear el layout de cluster
+                var cluster = d3.cluster()
+                    .size([360, radius])
+                    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
+
+                // Dar los datos a este layout de cluster
+                var root = d3.hierarchy({ values: nestedData }, function(d) { return d.values; })
+                    .sum(function(d) { return 1; }); // Usar un valor constante para ignorar la población
+
+                cluster(root);
+
+                // Generador de enlaces entre nodos
+                var linksGenerator = d3.linkRadial()
+                    .angle(function(d) { return d.x / 180 * Math.PI; })
+                    .radius(function(d) { return d.y; });
+
+                // Eliminar elementos existentes antes de actualizar
+                svg.selectAll("*").remove();
+
+                // Añadir los enlaces entre nodos
+                svg.selectAll('path')
+                    .data(root.links())
+                    .enter()
+                    .append('path')
+                    .attr("d", linksGenerator)
+                    .style("fill", 'none')
+                    .attr("stroke", '#ccc');
+
+                // Añadir un círculo para cada nodo
+                var node = svg.selectAll("g")
+                    .data(root.descendants())
+                    .enter()
+                    .append("g")
+                    .attr("transform", function(d) {
+                        return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")";
+                    });
+
+                node.append("circle")
+                    .attr("r", 7)
+                    .style("fill", "#69b3a2")
+                    .attr("stroke", "black")
+                    .style("stroke-width", 2);
+
+                // Añadir texto para provincias y cantones
+                node.filter(function(d) { return d.depth === 1 || d.depth === 2; }) // Filtrar para mostrar texto solo para provincias y cantones
+                    .append("text")
+                    .attr("dy", "0.31em")
+                    .attr("x", function(d) { return d.y > 180 ? 8 : -8; })
+                    .attr("text-anchor", function(d) { return d.y > 180 ? "start" : "end"; })
+                    .attr("transform", function(d) { return "rotate(" + (d.x < 180 ? d.x - 90 : d.x + 90) + ")"; })
+                    .text(function(d) { return d.data.key; })
+                    .style("font-size", "10px");
+            }
+
+            // Gráfico inicial con la primera provincia en la lista
+            updateChart(provinces[0]);
+
+            // Añadir evento de cambio al elemento select
+            d3.select("#province-select")
+                .on("change", function() {
+                    var selectedProvince = d3.select(this).property("value");
+                    updateChart(selectedProvince);
+            });
+
+
+        });
+    </script>
+</body>
+</html>
