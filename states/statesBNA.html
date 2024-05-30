@@ -21,83 +21,11 @@
 
 <body>
     <a href="../index.html">Regresar a la página principal</a>
-    <svg id="demo" width="90%" height="90%" viewBox="0 0 800 500">
+    <svg id="demo" width="100%" height="100%" viewBox="0 0 800 800">
         <text x="50%" y="90" text-anchor="middle" font-size="24">Mapa de Estados Unidos a partir de archivo BNA</text>
     </svg>
 
-    <script type="module">
-        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"
-
-        var xScale = d3.scaleLinear().domain([-66.419422, -125.786406]).range([750, 110]);
-        var yScale = d3.scaleLinear().domain([23.982057, 50.508481]).range([250, 110]);
-
-        async function prepareCoord() {
-            try {
-                const response = await fetch('states_usa.bna', {
-                    headers: {
-                        'Content-Type': 'text/csv', // Set the content type as CSV
-                    },
-                });
-                if (response.ok) {
-                    const csvContent = await response.text(); // Get the file content as text
-                    var arrayCoord = csvContent.split('\n'); // Process the content as needed
-                    var newCoord = [];
-                    var posc = 0;
-                    var areaAll = [];
-                    var listCoord = [];
-                    arrayCoord.forEach(elem => { //create {id:, idUser:, numState:, coord:[{},..,{}]}
-                        elem = elem.split(',');
-                        if (elem.length == 3) {
-                            newCoord = newCoord.concat({
-                                id: elem[0],
-                                idUser: elem[1],
-                                numState: elem[2],
-                                coord: []
-                            });
-                            if (listCoord.length != 0) {
-                                areaAll = areaAll.concat([listCoord]); //[{x:,y:},...,{x:,y:}]
-                            }
-                            posc++;
-                            listCoord = [];
-                        } else {
-                            newCoord[posc - 1].coord = {
-                                x: elem[0],
-                                y: elem[1]
-                            };
-                            listCoord = listCoord.concat({
-                                x: elem[0],
-                                y: elem[1]
-                            });
-                        }
-                    });
-                } else {
-                    console.error('Error downloading file:', response.status);
-                }
-
-                return [newCoord, areaAll];
-            } catch (error) {
-                console.error('Request error:', error);
-            }
-        }
-
-        let prepareCoordRes = await prepareCoord();
-        let coord = prepareCoordRes[0]
-        let areaAll = prepareCoordRes[1]
-
-        var area = d3.area()
-            .x(d => xScale(d.x))
-            .y0(d => yScale(d.y))
-            .y1(d => yScale(d.y));
-
-        areaAll.forEach(element => {
-            d3.select("#demo")
-                .append("path")
-                .attr("d", area(element))
-                .attr("fill", "red")
-                .attr("stroke", "black");
-        });
-
-    </script>
+    <script type="module" src="scriptStates.js"></script>
 </body>
 
 </html>
