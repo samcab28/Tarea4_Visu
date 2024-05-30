@@ -1,7 +1,7 @@
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 // Define las escalas
-var xScale = d3.scaleLinear().domain([-66.419422, -125.786406]).range([750, 110]);
+var xScale = d3.scaleLinear().domain([-125.786406, -66.419422]).range([110, 750]);
 var yScale = d3.scaleLinear().domain([23.982057, 50.508481]).range([250, 110]);
 
 // Función para cargar y procesar el archivo de coordenadas
@@ -9,46 +9,42 @@ async function prepareCoord() {
     try {
         const response = await fetch('states_usa.bna', {
             headers: {
-                'Content-Type': 'text/csv', // Set the content type as CSV
+                'Content-Type': 'text/plain', // Set the content type as plain text
             },
         });
         if (response.ok) {
-            const csvContent = await response.text(); // Get the file content as text
-            var arrayCoord = csvContent.split('\n'); // Process the content as needed
+            const textContent = await response.text(); // Get the file content as text
+            var arrayCoord = textContent.split('\n'); // Split the content by line
             var newCoord = [];
-            var posc = 0;
             var areaAll = [];
-            var listCoord = [];
-            arrayCoord.forEach(elem => { //create {id:, idUser:, numState:, coord:[{},..,{}]}
-                elem = elem.split(',');
+            var currentCoords = [];
+
+            arrayCoord.forEach(line => {
+                let elem = line.split(',');
                 if (elem.length == 3) {
-                    newCoord = newCoord.concat({
+                    if (currentCoords.length > 0) {
+                        areaAll.push(currentCoords);
+                        currentCoords = [];
+                    }
+                    newCoord.push({
                         id: elem[0],
                         idUser: elem[1],
                         numState: elem[2],
                         coord: []
                     });
-                    if (listCoord.length != 0) {
-                        areaAll = areaAll.concat([listCoord]); //[{x:,y:},...,{x:,y:}]
-                    }
-                    posc++;
-                    listCoord = [];
-                } else {
-                    newCoord[posc - 1].coord = {
-                        x: elem[0],
-                        y: elem[1]
-                    };
-                    listCoord = listCoord.concat({
-                        x: elem[0],
-                        y: elem[1]
-                    });
+                } else if (elem.length == 2) {
+                    currentCoords.push({ x: +elem[0], y: +elem[1] });
                 }
             });
+
+            if (currentCoords.length > 0) {
+                areaAll.push(currentCoords);
+            }
+
+            return [newCoord, areaAll];
         } else {
             console.error('Error downloading file:', response.status);
         }
-
-        return [newCoord, areaAll];
     } catch (error) {
         console.error('Request error:', error);
     }
@@ -63,8 +59,8 @@ async function loadStateNames() {
             const data = d3.csvParse(csvContent);
             const stateNames = {};
             data.forEach(d => {
-                stateNames[d.CODE] = d.NAME;
-                console.log(d.NAME)
+                stateNames[d.ID] = d.NAME;
+                console.log(d.ID, d.NAME);
             });
             return stateNames;
         } else {
@@ -75,9 +71,7 @@ async function loadStateNames() {
     }
 }
 
-let prepareCoordRes = await prepareCoord();
-let coord = prepareCoordRes[0];
-let areaAll = prepareCoordRes[1];
+let [coord, areaAll] = await prepareCoord();
 let stateNames = await loadStateNames();
 
 // Define el área
