@@ -18,7 +18,7 @@ async function prepareCoord() {
             var newCoord = [];
             var areaAll = [];
             var currentCoords = [];
-
+            var id;
             arrayCoord.forEach(line => {
                 let elem = line.split(',');
                 if (elem.length == 3) {
@@ -32,15 +32,17 @@ async function prepareCoord() {
                         numState: elem[2],
                         coord: []
                     });
-                } else if (elem.length == 2) {
-                    currentCoords.push({ x: +elem[0], y: +elem[1] });
+                    id = newCoord[0].id
+                    newCoord.pop();
+                } else if (elem.length == 2) { 
+                    currentCoords.push({ x: +elem[0], y: +elem[1], id: +id });
                 }
             });
 
             if (currentCoords.length > 0) {
                 areaAll.push(currentCoords);
             }
-
+            console.log(areaAll)
             return [newCoord, areaAll];
         } else {
             console.error('Error downloading file:', response.status);
@@ -72,7 +74,18 @@ async function loadStateNames() {
 }
 
 let [coord, areaAll] = await prepareCoord();
-let stateNames = await loadStateNames();
+const stateNames = await loadStateNames();
+
+
+function buscarEstado(id) {
+    
+    console.log(stateNames[id])
+
+    if(stateNames[id] == undefined){
+        return stateNames["0"+id]
+    }
+    return stateNames[id];//
+}
 
 // Define el área
 var area = d3.area()
@@ -82,6 +95,7 @@ var area = d3.area()
 
 // Dibuja los estados
 areaAll.forEach((element, index) => {
+    console.log(element)
     d3.select("#demo")
         .append("path")
         .attr("d", area(element))
@@ -95,5 +109,6 @@ areaAll.forEach((element, index) => {
         .attr("y", yScale(d3.mean(element, d => d.y)))
         .attr("text-anchor", "middle")
         .attr("alignment-baseline", "middle")
-        .text(stateNames[coord[index].numState] || "Unknown");
+        .attr("font-size", "6px") // Establece el tamaño de la fuente
+        .text(buscarEstado(element[0].id));
 });
